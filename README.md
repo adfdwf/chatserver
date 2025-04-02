@@ -1,5 +1,5 @@
 启动mysql:docker start MySQl8.0
-启动redis:进入/usr/local/nginx/sbin目录，执行./nginx -c conf/chatserver.conf(以指定配置文件启动redis)
+启动redis:进入/usr/local/nginx/sbin目录，执行./nginx -c conf/chatserver.conf(以指定配置文件启动nginx)
 
 在根目录下创建build和bin文件夹，然后执行./autobuild.sh  一键编译项目  编译后在bin目录下生成ChatServer和ChatClient两个可执行文件
 
